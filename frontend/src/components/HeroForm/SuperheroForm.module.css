@@ -1,0 +1,96 @@
+.superheroForm {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: #fff;
+    font-family: 'Bangers', cursive;
+    padding: 3rem;
+    max-width: 600px;
+    margin: 2rem auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  }
+  .pageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6); 
+    background-image: linear-gradient(135deg, rgba(70, 80, 175, 0.6), rgba(185, 190, 217, 0.9)); 
+  }
+  
+  
+  .superheroHeader {
+    font-size: 3rem;
+    text-align: center;
+    color: #ffe600;
+    text-shadow: 2px 2px 5px #000;
+    margin-bottom: 2rem;
+  }
+  
+  .superheroInput,
+  .superheroTextarea {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffe600;
+    border: 2px solid #ffe600;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .superheroInput:focus,
+  .superheroTextarea:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: #ff003c;
+  }
+  
+  .superheroFileInput {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid #ffe600;
+    padding: 1rem;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .superheroFileInput:hover {
+    background-color: rgba(255, 0, 60, 0.3);
+  }
+  .superheroFileInput::file-selector-button {
+    color: #888; 
+    font-size: 1rem;
+    background-color: transparent; 
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  .superheroFileInput:hover {
+    background-color: rgba(255, 0, 60, 0.3);
+  }
+  .superheroSubmitButton {
+    background-color: #ff003c;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(255, 0, 60, 0.5);
+    font-weight: bold;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    margin-left: 112px;  }
+  
+  .superheroSubmitButton:hover {
+    transform: scale(1.05);
+    background-color: #e60035;
+  }
+  
+  .superheroSubmitButton:focus {
+    outline: none;
+  }
+  

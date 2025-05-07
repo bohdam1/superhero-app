@@ -1,0 +1,70 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  line-height: 1.15; /* Correct line height for readability */
+  -webkit-text-size-adjust: 100%; /* Prevent scaling for mobile devices */
+}
+
+body {
+  margin: 0; /* Remove default body margin */
+  font-family: sans-serif;
+}
+
+/* Headings, paragraphs, and other textual elements */
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit; /* Maintain color for links */
+}
+
+button, input, select, textarea {
+  font: inherit; /* Inherit the font styles from parent elements */
+}
+
+/* Addressing form elements */
+input, button, select, textarea {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+button {
+  cursor: pointer; /* Make buttons look clickable */
+}
+
+/* Set proper text rendering */
+strong {
+  font-weight: bolder;
+}
+
+em {
+  font-style: italic;
+}
+
+table {
+  border-collapse: collapse; /* Remove space between table borders */
+}
+
+blockquote, dl, dd, ol, ul, p {
+  margin: 0;
+}
+
+hr {
+  height: 0;
+  border: 0;
+  border-top: 1px solid #ddd; /* A light border for horizontal rules */
+}
