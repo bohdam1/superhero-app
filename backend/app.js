@@ -12,8 +12,8 @@ app.use(express.json());
 app.use("/uploads", express.static("uploads"));
 app.use("/api/superheroes", superheroRoutes);
 
-mongoose.connect(process.env.MONGO_URI)
-  .then(() => console.log("MongoDB connected"))
-  .catch((err) => console.error("MongoDB connection error:", err));
+
+
+
 
 module.exports = app;
